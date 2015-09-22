@@ -1,6 +1,7 @@
 # nmt
 
-reference<br>
+<b>reference</b>
+<p>
 NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE
 <br>
 <a href='http://arxiv.org/pdf/1409.0473.pdf'>http://arxiv.org/pdf/1409.0473.pdf</a>
