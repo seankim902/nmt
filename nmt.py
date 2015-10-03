@@ -65,11 +65,11 @@ def load_data():
         ss = source.readline()
         if ss == "":
             break;
-        ss = [source_dict[w] if w in source_dict else 1 for w in ss]
+        ss = [source_dict[w] if w in source_dict else 1 for w in ss.split()]
         ss = [w if w < 300000 else 1 for w in ss]
         
         tt = target.readline()
-        tt = [target_dict[w] if w in target_dict else 1 for w in tt]
+        tt = [target_dict[w] if w in target_dict else 1 for w in tt.split()]
         tt = [w if w < 300000 else 1 for w in tt]
         new_source.append(ss)
         new_target.append(tt)
